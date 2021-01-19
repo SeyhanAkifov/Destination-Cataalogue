@@ -1,0 +1,10 @@
+{{> header}}
+<section id="viewMydestinations">
+    <h3>Your destinations</h3>
+    {{#if destinations}}
+    {{#each destinations}}
+    {{> destination-details}}
+    {{/each}}
+    {{/if}}
+</section>
+{{> footer}}
